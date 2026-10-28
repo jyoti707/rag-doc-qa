@@ -1,0 +1,12 @@
+TCP/IP and Networking Basics
+Source: Open technical documentation and standard references (public knowledge, paraphrased)
+
+This document gives a short overview of TCP/IP and Networking Basics.
+
+The OSI model has seven layers, from the physical layer at the bottom to the application layer at the top. TCP sets up a connection using a three-way handshake of SYN, SYN-ACK and ACK. UDP is connectionless and does not guarantee delivery, which makes it faster for streaming and gaming.
+
+An IPv4 address is 32 bits long, while an IPv6 address is 128 bits long. DNS translates domain names such as example.com into IP addresses. DHCP automatically assigns IP addresses to devices when they join a network.
+
+SSH uses port 22 for secure remote login. The ping command uses ICMP messages to test whether a host is reachable.
+
+Note: This is a simplified educational summary written in our own words from public information. It is not legal, financial or medical advice. Verify details with the official source before relying on them.

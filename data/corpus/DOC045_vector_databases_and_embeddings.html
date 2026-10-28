@@ -1,0 +1,9 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Vector Databases and Embeddings</title></head><body>
+<h1>Vector Databases and Embeddings</h1>
+<p><em>Source: Open technical documentation and standard references (public knowledge, paraphrased)</em></p>
+<p>This document gives a short overview of Vector Databases and Embeddings.</p>
+<p>An embedding is a list of numbers that represents the meaning of a piece of text. The all-MiniLM-L6-v2 sentence-transformer model produces embeddings with 384 dimensions. Cosine similarity ranges from -1 to 1, and a value close to 1 means the vectors point in nearly the same direction.</p>
+<p>ChromaDB is an open-source vector database that can store embeddings on disk and search them. FAISS is a similarity-search library developed by Meta. Approximate nearest neighbour search, such as HNSW, finds close vectors quickly without comparing against every vector.</p>
+<p>Metadata filtering restricts a vector search to records with chosen attributes, for example a document type. A persistent vector store keeps its index on disk so it does not have to be rebuilt every time the application starts.</p>
+<footer><small>Note: This is a simplified educational summary written in our own words from public information. It is not legal, financial or medical advice. Verify details with the official source before relying on them.</small></footer>
+</body></html>

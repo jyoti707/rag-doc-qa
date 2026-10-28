@@ -1,0 +1,51 @@
+doc_id,title,doc_type,file_name,source,num_facts
+DOC001,Preamble and Making of the Constitution,TXT,DOC001_preamble_and_making_of_the_constitution.txt,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC002,Fundamental Rights: An Overview,Markdown,DOC002_fundamental_rights_an_overview.md,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC003,Right to Equality (Articles 14 to 18),Word,DOC003_right_to_equality_articles_14_to_18.docx,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC004,Right to Freedom (Articles 19 to 22),PDF,DOC004_right_to_freedom_articles_19_to_22.pdf,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC005,Article 21 and Judicial Interpretation,HTML,DOC005_article_21_and_judicial_interpretation.html,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC006,Rights against Exploitation and Freedom of Religion (Articles 23 to 28),TXT,DOC006_rights_against_exploitation_and_freedom_.txt,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC007,"Cultural and Educational Rights and Constitutional Remedies (Articles 29, 30, 32)",Markdown,DOC007_cultural_and_educational_rights_and_cons.md,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC008,Directive Principles of State Policy,Word,DOC008_directive_principles_of_state_policy.docx,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC009,Fundamental Duties (Article 51A),PDF,DOC009_fundamental_duties_article_51a.pdf,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC010,The President of India,HTML,DOC010_the_president_of_india.html,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC011,The Parliament of India,TXT,DOC011_the_parliament_of_india.txt,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC012,The Supreme Court of India,Word,DOC012_the_supreme_court_of_india.docx,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC013,High Courts and Subordinate Courts,Markdown,DOC013_high_courts_and_subordinate_courts.md,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC014,Amendment of the Constitution (Article 368),PDF,DOC014_amendment_of_the_constitution_article_36.pdf,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC015,Emergency Provisions,HTML,DOC015_emergency_provisions.html,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC016,Union-State Relations and Federalism,TXT,DOC016_union_state_relations_and_federalism.txt,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC017,Election Commission of India and Elections,Word,DOC017_election_commission_of_india_and_electio.docx,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC018,"Parts, Articles and Schedules of the Constitution",Markdown,DOC018_parts_articles_and_schedules_of_the_cons.md,"Constitution of India (public document, legislative.gov.in / India Code)",8
+DOC019,PM-KISAN Samman Nidhi Scheme,TXT,DOC019_pm_kisan_samman_nidhi_scheme.txt,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC020,Ayushman Bharat PM-JAY Health Insurance,PDF,DOC020_ayushman_bharat_pm_jay_health_insurance.pdf,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC021,MGNREGA Rural Employment Guarantee,Markdown,DOC021_mgnrega_rural_employment_guarantee.md,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC022,Pradhan Mantri Jan Dhan Yojana,Word,DOC022_pradhan_mantri_jan_dhan_yojana.docx,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC023,Pradhan Mantri Ujjwala Yojana,HTML,DOC023_pradhan_mantri_ujjwala_yojana.html,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC024,Swachh Bharat Mission,TXT,DOC024_swachh_bharat_mission.txt,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC025,Digital India Programme,Markdown,DOC025_digital_india_programme.md,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC026,Make in India Initiative,PDF,DOC026_make_in_india_initiative.pdf,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC027,Atal Pension Yojana,Word,DOC027_atal_pension_yojana.docx,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC028,Pradhan Mantri Awas Yojana,HTML,DOC028_pradhan_mantri_awas_yojana.html,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC029,Beti Bachao Beti Padhao Scheme,TXT,DOC029_beti_bachao_beti_padhao_scheme.txt,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC030,Skill India Mission and PMKVY,Markdown,DOC030_skill_india_mission_and_pmkvy.md,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC031,Sukanya Samriddhi Yojana,PDF,DOC031_sukanya_samriddhi_yojana.pdf,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC032,Pradhan Mantri MUDRA Yojana,Word,DOC032_pradhan_mantri_mudra_yojana.docx,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC033,Stand-Up India Scheme,HTML,DOC033_stand_up_india_scheme.html,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC034,National Food Security Act 2013,TXT,DOC034_national_food_security_act_2013.txt,Government of India scheme guidelines and Press Information Bureau releases (public information),8
+DOC035,Python Virtual Environments and pip,Markdown,DOC035_python_virtual_environments_and_pip.md,"Open technical documentation and standard references (public knowledge, paraphrased)",8
+DOC036,Git Version Control Basics,TXT,DOC036_git_version_control_basics.txt,"Open technical documentation and standard references (public knowledge, paraphrased)",8
+DOC037,Linux File Permissions,Word,DOC037_linux_file_permissions.docx,"Open technical documentation and standard references (public knowledge, paraphrased)",8
+DOC038,SQL Basics for Beginners,PDF,DOC038_sql_basics_for_beginners.pdf,"Open technical documentation and standard references (public knowledge, paraphrased)",8
+DOC039,HTTP and REST API Fundamentals,HTML,DOC039_http_and_rest_api_fundamentals.html,"Open technical documentation and standard references (public knowledge, paraphrased)",8
+DOC040,Docker Basics,Markdown,DOC040_docker_basics.md,"Open technical documentation and standard references (public knowledge, paraphrased)",8
+DOC041,TCP/IP and Networking Basics,TXT,DOC041_tcp_ip_and_networking_basics.txt,"Open technical documentation and standard references (public knowledge, paraphrased)",8
+DOC042,Home Wi-Fi Router Setup Manual,Word,DOC042_home_wi_fi_router_setup_manual.docx,"Open technical documentation and standard references (public knowledge, paraphrased)",8
+DOC043,Machine Learning Fundamentals,PDF,DOC043_machine_learning_fundamentals.pdf,"Open technical documentation and standard references (public knowledge, paraphrased)",8
+DOC044,Retrieval-Augmented Generation (RAG) Explained,Markdown,DOC044_retrieval_augmented_generation_rag_expla.md,"Open technical documentation and standard references (public knowledge, paraphrased)",8
+DOC045,Vector Databases and Embeddings,HTML,DOC045_vector_databases_and_embeddings.html,"Open technical documentation and standard references (public knowledge, paraphrased)",8
+DOC046,Transformers and Large Language Models,TXT,DOC046_transformers_and_large_language_models.txt,"Open technical documentation and standard references (public knowledge, paraphrased)",8
+DOC047,Cybersecurity Hygiene Manual,Word,DOC047_cybersecurity_hygiene_manual.docx,"Open technical documentation and standard references (public knowledge, paraphrased)",8
+DOC048,Cloud Computing Models,Markdown,DOC048_cloud_computing_models.md,"Open technical documentation and standard references (public knowledge, paraphrased)",8
+DOC049,Number Systems and Data Units,PDF,DOC049_number_systems_and_data_units.pdf,"Open technical documentation and standard references (public knowledge, paraphrased)",8
+DOC050,Python Programming Basics,HTML,DOC050_python_programming_basics.html,"Open technical documentation and standard references (public knowledge, paraphrased)",8

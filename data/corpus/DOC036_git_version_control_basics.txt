@@ -1,0 +1,12 @@
+Git Version Control Basics
+Source: Open technical documentation and standard references (public knowledge, paraphrased)
+
+This document gives a short overview of Git Version Control Basics.
+
+The command git init creates a new, empty Git repository in the current folder. The command git add stages changes so that they are included in the next commit. The command git commit -m followed by a message records the staged changes as a snapshot in history.
+
+The command git status shows which files are modified, staged or untracked. The command git clone copies an existing remote repository to your computer. The command git branch creates or lists branches, and git merge combines one branch into another.
+
+The command git push origin main sends local commits to the main branch of the remote named origin. A .gitignore file lists files and folders, such as virtual environments, that Git should not track.
+
+Note: This is a simplified educational summary written in our own words from public information. It is not legal, financial or medical advice. Verify details with the official source before relying on them.

@@ -1,0 +1,14 @@
+column_name,in_original_file,data_type,kind,sample_value_1,sample_value_2,sample_value_3,nullable,missing_count,unique_values,min_value,max_value,mean_value,description
+doc_id,Yes,object (text),Identifier,DOC002,DOC034,DOC013,No,0,50,,,,"Unique ID of the source document in the corpus (DOC001-DOC050). 50 documents: 18 Constitution, 16 government schemes, 16 technical manuals."
+doc_type,Yes,object (text),Categorical,Markdown,TXT,Markdown,No,0,5,,,,"File format of the source document: PDF, Word, HTML, Markdown or TXT. Fixed per document (made consistent during cleaning)."
+chunk_id,Yes,object (text),Identifier,CHK00001,CHK00002,CHK00003,No,0,5000,,,,Unique ID of one text chunk (CHK00001 onward). A chunk is the unit stored in the vector database and retrieved for a question.
+word_count,Yes,int64,Integer (words),457,302,52,No,0,450,50,499,271.3718,Number of words in the chunk. Range 50-499. Controls how much context is given to the LLM.
+retrieval_score,Yes,float64,Float 0-1,0.5962,0.7397,0.7735,No,0,3140,0.5002,0.999,0.7476,Cosine-similarity score between the question embedding and the chunk embedding. Higher = chunk is more relevant to the question.
+query_type,Yes,object (text),Categorical,analytical,factual,comparative,No,0,5,,,,"Kind of user question: factual, analytical, comparative, procedural or summarization."
+answer_quality_score,Yes,float64,Float 0-1,0.942,0.976,0.66,No,0,401,0.6,1.0,0.7999,"Quality rating of the generated answer (correctness, completeness, groundedness) on a 0-1 scale. Higher is better."
+length_bucket,No (derived),object (text),Derived categorical,very_long(>450),long(301-450),short(<=150),No,0,4,,,,"Chunk length group made from word_count: short, medium, long, very_long."
+retrieval_band,No (derived),object (text),Derived categorical,low(<0.6),fair(0.6-0.75),good(0.75-0.9),No,0,4,,,,"Retrieval score group: low (<0.6), fair, good, excellent (>0.9)."
+quality_band,No (derived),object (text),Derived categorical,good(>0.85),good(>0.85),poor(<0.7),No,0,3,,,,"Answer-quality group: poor (<0.7), ok, good (>0.85)."
+combined_score,No (derived),float64,Derived float 0-1,0.7691,0.8578,0.7168,No,0,2576,0.5574,0.9936,0.7737,Average of retrieval_score and answer_quality_score; one overall health number per chunk/query.
+hallucination_risk,No (derived),int64,Derived binary 0/1,1,0,0,No,0,2,0,1,0.296,1 if retrieval_score < 0.6 or answer_quality_score < 0.65. These rows need human review before the answer is trusted.
+category,No (derived),object (text),Derived categorical,Constitution,Govt schemes,Constitution,No,0,3,,,,"Corpus group of the document: Constitution, Govt schemes or Technical manual."

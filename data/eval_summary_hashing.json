@@ -1,0 +1,44 @@
+{
+  "embedder": "hashing",
+  "provider": "extractive (no LLM, offline)",
+  "k": 4,
+  "n_questions": 1000,
+  "chunk_size": 500,
+  "overlap": 80,
+  "doc_hit_at_k": 0.989,
+  "top1_accuracy": 0.935,
+  "mrr": 0.9582,
+  "evidence_recall_at_k": 0.91,
+  "avg_top_score": 0.3705,
+  "seconds_per_query": 0.017,
+  "by_query_type": {
+    "analytical": {
+      "doc_hit": 0.981,
+      "top1_hit": 0.913,
+      "evidence_hit": 0.863
+    },
+    "comparative": {
+      "doc_hit": 1.0,
+      "top1_hit": 0.947,
+      "evidence_hit": 1.0
+    },
+    "factual": {
+      "doc_hit": 0.994,
+      "top1_hit": 0.94,
+      "evidence_hit": 0.918
+    },
+    "procedural": {
+      "doc_hit": 0.952,
+      "top1_hit": 0.893,
+      "evidence_hit": 0.893
+    },
+    "summarization": {
+      "doc_hit": 1.0,
+      "top1_hit": 1.0,
+      "evidence_hit": 0.94
+    }
+  },
+  "avg_grounding": 0.903,
+  "abstain_rate": 0.097,
+  "avg_answer_recall": 0.702
+}

@@ -1,0 +1,12 @@
+Transformers and Large Language Models
+Source: Open technical documentation and standard references (public knowledge, paraphrased)
+
+This document gives a short overview of Transformers and Large Language Models.
+
+The Transformer architecture was introduced in the 2017 paper Attention Is All You Need. Self-attention lets each token in a sequence weigh the importance of the other tokens. A token is a small unit of text, often a word piece, that a language model reads and produces.
+
+The context window is the maximum number of tokens a model can consider at one time. A higher temperature setting makes the output more random, and a lower temperature makes it more deterministic. BERT is an encoder-only model, whereas GPT models are decoder-only models.
+
+Prompt engineering is the practice of designing instructions and examples that guide a model toward a desired output. Hallucination is when a model produces fluent text that is not supported by facts or by the provided context.
+
+Note: This is a simplified educational summary written in our own words from public information. It is not legal, financial or medical advice. Verify details with the official source before relying on them.

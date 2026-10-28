@@ -1,0 +1,12 @@
+{
+  "rows_in": 5000,
+  "missing_values": 0,
+  "duplicate_rows": 0,
+  "duplicate_chunk_ids": 0,
+  "unknown_doc_ids": 0,
+  "doc_ids_with_multiple_types_before": 50,
+  "doc_type_rows_corrected": 390,
+  "out_of_range_rows_dropped": 0,
+  "rows_out": 5000,
+  "hallucination_risk_rate": 0.296
+}

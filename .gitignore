@@ -1,0 +1,5 @@
+venv/
+.env
+chroma_db/
+qa_log.db
+__pycache__/
